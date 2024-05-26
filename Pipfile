@@ -5,25 +5,10 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-django = "*"
-djangorestframework = "*"
-django-cors-headers = "==3.13.0"
-pytz = "==2022.7"
-asgiref = "==3.6.0"
-dash = "*"
-dash-bootstrap-components = "*"
-dash-mantine-components = "0.12.1" #keyword argument: `icon` removed from MenuItem in latest version 0.14.1
-dash-iconify = "*"
-boto3 = "*"
-gunicorn = "*"
-python-dotenv = "*"
-flask-caching = "*"
-forex-python = "*"
+jupyterlab = "*"
+mlflow = "*"
 
 [dev-packages]
-pytest = "*"
-freezegun = "*"
-pytest-mock = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "3.12"
